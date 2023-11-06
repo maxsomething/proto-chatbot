@@ -8,6 +8,87 @@
     <link rel="stylesheet" href="./style.css">
     <link rel="icon" href="./favicon.ico" type="image/x-icon">
   </head>
+  <style>
+    html, body, h1, form {
+    margin: 0;
+    padding: 0;
+    }
+
+    body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    }
+
+    main {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    }
+
+    h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+    }
+
+    form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+    input[type="text"] {
+    width: 70%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    }
+
+    button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    }
+
+    button[type="submit"]:hover {
+    background-color: #0056b3;
+    }
+
+    #chat-log {
+    margin-top: 20px;
+    max-height: 300px;
+    overflow-y: scroll;
+    }
+
+    .message {
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    max-width: 80%;
+    }
+
+    .message--sent {
+    background-color: #007BFF;
+    color: #fff;
+    align-self: flex-end;
+    text-align: right;
+    }
+
+    .message--received {
+    background-color: #f0f0f0;
+    color: #333;
+    }
+
+    .message__text {
+    word-wrap: break-word;
+    }
+  </style>
   <body>
     <main>
         <h1>gpt and api</h1>  
