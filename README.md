@@ -1,5 +1,4 @@
 # proto-chatbot
 a basic chat bot structure
 
-There should be an implementation of a script that dowloads nodes extras
-There should also be an injection of CSS into the HTML file
+not safe to run on public wifi, please use in local connections only. 
